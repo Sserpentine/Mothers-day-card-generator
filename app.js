@@ -57,6 +57,6 @@ function bg8(){
 
 // downloading the Greeting card
 download.conclick=()=>{
-    var image = canvas.toDataURL("image/jpd");
+    var image = canvas.toDataURL("image/jpg");
     download.href=image;
 }
